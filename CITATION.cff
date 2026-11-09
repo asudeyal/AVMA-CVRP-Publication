@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated AVMA-CVRP manuscript."
+title: "AVMA-CVRP: An Exploratory Evaluation of Visual Demand Encodings in Multi-Agent Capacitated Vehicle Routing"
+type: software
+authors:
+  - family-names: "Yalçın"
+    given-names: "Nimet Asude"
+  - family-names: "Kaymak"
+    given-names: "Ayşe Nihal"
+  - family-names: "Yener"
+    given-names: "Furkan"
