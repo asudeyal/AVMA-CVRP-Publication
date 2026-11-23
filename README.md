@@ -88,6 +88,8 @@ Protocol configurations are stored in `configs/main_8method/`. Each YAML file de
 
 The eight main visual-method configurations specify a maximum of **20 search iterations** and use the model identifier `gemini-3.7-flash`, as recorded for the study. Runs may complete fewer iterations due to early stopping or the failure to establish a feasible initial solution. Provider model availability and routing can change over time; exact reproduction should be checked against the original execution metadata and the provider's current model identifiers.
 
+**Research data availability:** The repository currently includes code, benchmark inputs, versioned configurations, and prompts, but does not include the complete run-level result logs for all 1,280 experimental runs reported in the manuscript. Reproducing an experiment requires valid model access and may be affected by provider or model changes. The manuscript's Data Availability Statement should be kept consistent with the files that are publicly accessible.
+
 The active prompt set is `cvrp_capacity_v3`. The default scale policy is:
 
 ```text
@@ -139,6 +141,6 @@ The tests cover configuration loading, CVRP validation, hybrid transitions, dete
 
 If you use AVMA-CVRP in academic work, cite the associated manuscript:
 
-> Nimet Asude Yalçın, Ayşe Nihal Kaymak, and Furkan Yener. *AVMA-CVRP: An Adaptive Visual Multi-Agent System for the Capacitated Vehicle Routing Problem*.
+> Furkan Yener, Nimet Asude Yalçın, Ayşe Nihal Kaymak, and Numan Çelebi. *AVMA-CVRP: An Exploratory Evaluation of Visual Demand Encodings in Multi-Agent Capacitated Vehicle Routing*.
 
 Machine-readable citation metadata is provided in `CITATION.cff`.
