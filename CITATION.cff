@@ -3,9 +3,11 @@ message: "If you use this software, please cite the associated AVMA-CVRP manuscr
 title: "AVMA-CVRP: An Exploratory Evaluation of Visual Demand Encodings in Multi-Agent Capacitated Vehicle Routing"
 type: software
 authors:
+  - family-names: "Yener"
+    given-names: "Furkan"
   - family-names: "Yalçın"
     given-names: "Nimet Asude"
   - family-names: "Kaymak"
     given-names: "Ayşe Nihal"
-  - family-names: "Yener"
-    given-names: "Furkan"
+  - family-names: "Çelebi"
+    given-names: "Numan"
